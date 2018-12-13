@@ -1,5 +1,6 @@
 <?php
 
+    //Haven't quite figured this one out since I haven't found time to learn php
     //Check to make sure that the name field is not empty
     if(trim($_POST['name']) == '') {
         $hasError = true;
@@ -29,8 +30,8 @@
 
     //If there is no error, send the email
     if(!$hasError) {
-        $emailTo = 'yourname@yourcompany.com'; //Put your own email address here
-        $subject = 'Message from your website'; //Put your own subject here
+        $emailTo = 'david.blais.412@icloud.com'; //Put your own email address here
+        $subject = 'I wanted to contact you!'; //Put your own subject here
         $body = "Name: $name \n\nEmail: $email \n\nSubject: $subject \n\nComments:\n $message";
         $headers = "From: ".$name." <".$email.">\r\nReply-To: ".$email."";
 

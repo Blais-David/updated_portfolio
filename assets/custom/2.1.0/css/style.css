@@ -1813,11 +1813,12 @@ figure {
     opacity: 1.0; }
   figure figcaption {
     padding: 1.0em;
-    color: #ffffff;
+    color: black;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
     figure figcaption > .fig-description a {
       z-index: 1000;
+      color: black;
       text-indent: 200%;
       white-space: nowrap;
       font-size: 0; }
@@ -1856,8 +1857,8 @@ figure.effect-goliath {
     figure.effect-goliath .popup-call a:hover, figure.effect-goliath .popup-call a:focus {
       text-decoration: none; }
     figure.effect-goliath .popup-call a i:before {
-      font-size: 40px;
-      color: #ffffff !important;
+      font-size: 70px;
+      color: black !important;
       opacity: .5;
       margin-left: 0;
       transition: none;
@@ -1876,6 +1877,7 @@ figure.effect-goliath {
     font-size: 12px; }
     figure.effect-goliath figcaption .fig-description {
       position: absolute;
+      color: black;
       left: 30px;
       right: 30px;
       bottom: 30px; }
@@ -1902,8 +1904,8 @@ figure.effect-goliath {
     backface-visibility: hidden; }
   figure.effect-goliath h3 {
     font-family: "Arvo", serif;
-    color: #ffffff;
-    font-size: 16px;
+    color: black;
+    font-size: 30px;
     opacity: 0;
     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: opacity 0.5s, transform 0.5s;
@@ -1921,7 +1923,7 @@ figure.effect-goliath {
       transition: all 0.9s; }
   figure.effect-goliath p {
     margin-top: 7px;
-    color: #ffffff;
+    color: black;
     text-transform: none;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
@@ -2104,6 +2106,7 @@ figure.effect-goliath {
     margin-top: 0; }
   #portfolio2 figure figcaption .fig-description {
     position: relative;
+    color: black;
     left: auto;
     right: auto;
     bottom: auto; }
@@ -2165,6 +2168,9 @@ figure.effect-goliath {
   #portfolio2 .port-filter-light ul li a:hover:after, #portfolio2 .port-filter-light ul li a:focus:after {
     border-color: #e74c3c transparent;
     opacity: 1; }
+  .fig-description, h3 {
+    color: black;
+  }
 
 /*------------------------------------------------------------------
 [Portfolio Item]
